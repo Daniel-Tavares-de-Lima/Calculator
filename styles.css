@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #5A6779;
+}
+
+main h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+
+
+/*MODO CLARO--------------------*/
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    background-color: #E3E4E9;
+    position: relative;
+    transition: all 1s;
+}
+
+.moon{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 25px;
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+
+.result{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+
+
+/*------------------------------*/
+
+
+/*------------MODO ESCURO---------------------*/
+.dark{
+    background-color: #253145;
+    transition: all 1s;
+
+}
+
+.button-dark{
+    background-color: #253145;
+    color: white;
+    transition: 1s;
+}
+
+.result-dark{
+    color: white;
+}
+
+
+.sun{
+    display: none;
+}
+
+
+/*----------------------------------*/
+
+table{
+    width: 300px;
+    height: 300px;
+}
+
+.one{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ button#zero {
+    width: 120px;
+}
+
+button.color{
+    color: #ff8800;
+}
+
